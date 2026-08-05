@@ -1,0 +1,7 @@
+# pnpm writes these as placeholders ("set this to true or false") the first time
+# it meets a dependency with a build script, and refuses to install until they
+# are decided. Left unanswered, a fresh clone cannot even run `pnpm build`.
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  vue-demi: true

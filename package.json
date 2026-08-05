@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@nuxt/ui": "^4.5.1",
-    "@openape/nuxt-auth-sp": "^0.9.1",
+    "@openape/nuxt-auth-sp": "^0.15.2",
     "nuxt": "^4.0.0"
   },
   "engines": {
